@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy & Me - 2 Years of Us</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff0f5;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('header.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 12px;
+    }
+    .timeline {
+      border-left: 2px solid #ff69b4;
+      padding-left: 20px;
+    }
+    .timeline div {
+      margin-bottom: 30px;
+    }
+    .message {
+      background: #ffe4e1;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .surprise {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .surprise button {
+      background-color: #ff69b4;
+      border: none;
+      padding: 15px 30px;
+      color: white;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>2 Years of Us ❤️</h1>
+    <p>Happy & Me — Since Day One</p>
+  </header>
+
+  <section id="story">
+    <h2>Our Story</h2>
+    <div class="timeline">
+      <div><strong>January 2023:</strong> We started talking ❤️</div>
+      <div><strong>February 2023:</strong> First time we went on a date 🥰</div>
+      <div><strong>June 2023:</strong> First time we said "I love you" 🥹</div>
+      <div><strong>2024:</strong> So many ups and downs, but we stayed strong 💪</div>
+      <div><strong>Now:</strong> 2 years of love and still going 💖</div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Photo Memories</h2>
+    <div class="gallery">
+      <img src="photo1.jpg" alt="Us 1" />
+      <img src="photo2.jpg" alt="Us 2" />
+    </div>
+  </section>
+
+  <section id="struggles">
+    <h2>Our Struggles</h2>
+    <p>We’ve had fights, distance, misunderstandings... but never gave up on each other. That’s what love means to me. No matter what, we always found our way back. ❤️</p>
+  </section>
+
+  <section id="message">
+    <h2>A Message for You</h2>
+    <div class="message">
+      <p>Happy, you’re not just my girlfriend. You’re my best friend, my strength, my everything. I made this little surprise to show how much I cherish every moment with you. Can’t wait for forever. 💍</p>
+    </div>
+  </section>
+
+  <section id="surprise">
+    <div class="surprise">
+      <button onclick="alert('I have another surprise for you coming soon 💌')">Click for a Surprise</button>
+    </div>
+  </section>
+</body>
+</html>
